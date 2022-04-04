@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SideLink from "../components/SideLink";
+import UserBox from "../components/UserBox";
 import {
   BookmarksIcon,
   ExploreIcon,
@@ -79,7 +80,7 @@ const Sidebar = () => {
           Tweetle
         </button>
       </div>
-      <div>Osman</div>
+      <UserBox />
     </aside>
   );
 };
