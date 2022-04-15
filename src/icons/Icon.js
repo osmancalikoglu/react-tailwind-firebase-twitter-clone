@@ -94,7 +94,7 @@ export const MoreIcon = ({ className }) => {
 
 // Header Icons
 
-export const PopulerIcon = ({ className }) => {
+export const PopularIcon = ({ className }) => {
   return (
     <Svg className={className}>
       <g>
