@@ -56,7 +56,7 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className="w-64 flex flex-col justify-between px-2">
+    <aside className="h-screen sticky top-0 w-64 flex flex-col justify-between px-2">
       <div>
         <a
           href="#"
@@ -72,12 +72,13 @@ const Sidebar = () => {
                 Icon={icon}
                 active={active}
                 onMenuItemClick={handleMenuItemClick}
+                key={name}
               />
             ))}
           </ul>
         </nav>
         <button className="bg-primary-base text-white rounded-full py-2 shadow-md hover:bg-primary-dark w-11/12 transition">
-          Tweetle
+          Tweet
         </button>
       </div>
       <UserBox />
